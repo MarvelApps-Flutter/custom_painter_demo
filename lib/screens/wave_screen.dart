@@ -22,7 +22,6 @@ class _WaveScreenState extends State<WaveScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        //appBar: AppBar(title: Text("Wave Screen"),),
         body: Container(
           width: screenSize().width,
           height: screenSize().height,
@@ -32,27 +31,15 @@ class _WaveScreenState extends State<WaveScreen> {
                 child: CustomPaint(
                   painter: CustomPainterThirdWave(),
                   size: Size(double.infinity,480),
-                  // child: Container(
-                  //   color: Colors.deepOrangeAccent,
-                  //   height: 340,
-                  // ),
                 ),),
               Opacity(opacity: 0.5,
                 child: CustomPaint(
                   painter: CustomPainterSecondWave(),
                   size: Size(double.infinity,450),
-                  // child: Container(
-                  //   color: Colors.deepOrangeAccent,
-                  //   height: 340,
-                  // ),
                 ),),
               CustomPaint(
                 painter: CustomPainterFirstWave(),
                 size: Size(double.infinity,410),
-                // child: Container(
-                //   color: Colors.deepOrangeAccent,
-                //   height: 210,
-                // ),
               ),
             ],
           ),
