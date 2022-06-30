@@ -2,6 +2,9 @@
 
 A new Flutter app for demonstrating Custom Painter.
 
+# Demo
+<td><img src="https://github.com/MarvelApps-Flutter/custom_painter_demo/blob/dev/screenshots/gif/demo.gif" height="480px"></td>
+
 # Android Screenshots
 
 <table>
